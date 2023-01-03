@@ -1,0 +1,358 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 135px;
+    min-width: 1170px;
+    background: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.wrapper {
+    width: 502px;
+    height: 590px;
+    padding: 36px 34px 0;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+}
+
+.input-title {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+    display: block;
+    margin-bottom: 7px;
+}
+.wrapper-signup__name, .wrapper-profile__name, .wrapper-profile__contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+    width: 227px;
+    height: 20px;
+    padding: 8px;
+
+
+}
+.input:focus-visible {
+    outline: none;
+}
+
+.input:focus {
+    border: 1px solid #007BFF;
+}
+
+
+.email__input {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.email__input-notification, .input-notification {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+.wrapper-signup__email {
+    margin-bottom: 20px;
+}
+
+.wrapper-signup__sex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sex__label {
+    cursor: pointer;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+}
+
+.sex__option {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    outline: none;
+    margin: 0;
+    margin-right: 10px;
+}
+
+
+/* .sex__option::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    border: 2px solid red;
+} */
+
+.sex__option:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    outline: 5px solid #007BFF;;
+    outline-offset: -5px;
+    /* border: 5px solid blue; */
+    visibility: visible;
+}
+
+.wrapper-signup__address, .wrapper-profile__address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* .address__placeholder {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+} */
+
+/* .address__select option:first-child {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: gray;
+} */
+
+.address__select {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    height: 38px;
+}
+
+.address__select:invalid {
+    color: gray;
+}
+
+.address__select option {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+}
+
+.btn {
+    height: 38px;
+    margin-bottom: 22px;
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.wrapper-signup__btn {
+    width: 100%;
+}
+
+.wrapper-signup__terms {
+    /* width: 100%; */
+    padding: 0 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-signup__terms-notification {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+
+.terms-notification__accent {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.wrapper-signup__divider {
+    background: #E4E4E4;
+    /* width: 500px; */
+    height: 1px;
+    margin: 20px 0;
+    border: none;
+}
+
+.wrapper-signup__login {
+    display: flex;
+    justify-content: center;
+}
+
+.login__notification {
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: -0.2px;
+    color: #545454;
+}
+
+.login__link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #007BFF;
+}
+
+.wrapper-profile__heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading__photo {
+    width: 80px;
+    height: 80px;
+    background-image: url(./img/📷\ Image.png);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.input-notification {
+    display: block;
+}
+
+.heading__description {
+    display: flex;
+}
+
+.heading__input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #1C1C1C;
+    width: 93px;
+    height: 14px;
+    padding: 7px 36px 7px 8px;
+    margin-bottom: 9px;
+}
+
+
+.heading__description-photo-path {
+    margin-right: 7px;
+    position: relative;
+}
+
+.heading__input::after {
+    content: url(./img/Photo\ Camera.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+
+}
+
+.heading__input-icon {
+    cursor: pointer;
+    height: 16px;
+}
+
+.heading__icon {
+    cursor: pointer;
+}
+
+.heading__input-icon-wrapper {
+    background-color: #FFFFFF;
+    width: 32px;
+    position: absolute;
+    top: 12%;
+    right: 1.7%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.wrapper-profile__btn {
+    width: 150px;
+}
+
+
+
+/* .container {
+    background-color: #007BFF;
+    display: flex;
+    gap: 0 15px;
+}
+
+.block {
+    display: contents;
+}
+
+.content {
+   width: 100%;
+   background-color: #1C1C1C;
+} */
+
+
+ /* .block {
+    display: none;
+ }
+
+ .block:has(.content) {
+    display: block;
+    background-color: #1C1C1C;
+    width: 100%;
+ } */
