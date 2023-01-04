@@ -17,17 +17,17 @@
         <form action="" method="post">
             <div class="wrapper-signup__name">
                 <div class="wrapper-signup__name-first-name">
-                    <label class="input-title">First Name</label>
-                    <input class="input" type="text">
+                    <label class="input-title" for="first name">First Name</label>
+                    <input class="input" type="text" id="first name">
                 </div>
                 <div class="wrapper-signup__name-last-name">
-                    <label class="input-title">Last Name</label>
-                    <input class="input" type="text">
+                    <label class="input-title" for="last name">Last Name</label>
+                    <input class="input" type="text" id="last name">
                 </div>
             </div>
             <div class="wrapper-signup__email">
-                <label class="input-title">E-mail</label>
-                <input class="input email__input" type="email">
+                <label class="input-title" for="email-signup">E-mail</label>
+                <input class="input email__input" type="email" id="email-signup">
                 <p class="input-notification">We'll never share your email with anyone else.</p>
             </div>
             <div class="wrapper-signup__sex">
@@ -36,8 +36,8 @@
             </div>
             <div class="wrapper-signup__address">
                 <div class="addess__country">
-                    <label class="input-title">Country</label>
-                    <select class="input address__select" required="required">
+                    <label class="input-title" for="country-signup">Country</label>
+                    <select class="input address__select" required="required" id="country-signup">
                         <option class="address__placeholder" value="" disabled selected hidden>Select</option>
                         <option value="Ukraine">Ukraine</option>
                         <option value="USA">USA</option>
@@ -46,8 +46,8 @@
                     </select>
                 </div>
                 <div class="address__city">
-                    <label class="input-title">City</label>
-                    <input class="input" type="text">
+                    <label class="input-title" for="city-signup">City</label>
+                    <input class="input" type="text" id="city-signup">
                 </div>
             </div>
             <input class="wrapper-signup__btn btn" type="submit" value="Sign Up">
@@ -65,7 +65,6 @@
     </div>
     <div class="wrapper-profile wrapper">
         <h2 class="wrapper-profile__title title">Profile</h2>
-
         <form action="" method="post">
             <div class="wrapper-profile__heading">
                 <div class="heading__photo"></div>
@@ -112,18 +111,18 @@
             </div>
             <div class="wrapper-profile__name">
                 <div class="wrapper-profile__name-input">
-                    <label class="input-title">First Name</label>
-                    <input class="input" type="text">
+                    <label class="input-title" for="first-name-profile">First Name</label>
+                    <input class="input" type="text" id="first-name-profile">
                 </div>
                 <div class="wrapper-profile__email">
-                    <label class="input-title">E-mail</label>
-                    <input class="input" type="email">
+                    <label class="input-title" for="email-profile">E-mail</label>
+                    <input class="input" type="email" id="email-profile">
                 </div>
             </div>
             <div class="wrapper-profile__address">
                 <div class="address__country">
-                    <label class="input-title">Country</label>
-                    <select class="input address__select" required="required">
+                    <label class="input-title" for="country-profile">Country</label>
+                    <select class="input address__select" required="required" id="country-profile">
                         <option class="address__placeholder" value="" disabled selected hidden>Select</option>
                         <option value="Ukraine">Ukraine</option>
                         <option value="USA">USA</option>
@@ -132,18 +131,18 @@
                     </select>
                 </div>
                 <div class="address__city">
-                    <label class="input-title">City</label>
-                    <input class="input" type="text">
+                    <label class="input-title" for="city-profile">City</label>
+                    <input class="input" type="text" id="city-profile">
                 </div>
             </div>
             <div class="wrapper-profile__contacts">
                 <div class="wrapper-profile__zip">
-                    <label class="input-title">Zip Code</label>
-                    <input class="input" type="text">
+                    <label class="input-title" for="zip">Zip Code</label>
+                    <input class="input" type="text" id="zip">
                 </div>
                 <div class="wrapper-profile__phone">
-                    <label class="input-title">Phone Number</label>
-                    <input class="input" type="text">
+                    <label class="input-title" for="phone">Phone Number</label>
+                    <input class="input" type="text" id="phone">
                 </div>
             </div>
             <input class="wrapper-profile__btn btn" type="submit" value="Update">
