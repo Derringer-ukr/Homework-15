@@ -109,18 +109,6 @@ a {
 }
 
 
-/* .sex__option::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 13px;
-    width: 13px;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    background-color: yellow;
-    border: 2px solid red;
-} */
 
 .sex__option:checked::after {
     content: '';
@@ -134,7 +122,6 @@ a {
     background-color: white;
     outline: 5px solid #007BFF;;
     outline-offset: -5px;
-    /* border: 5px solid blue; */
     visibility: visible;
 }
 
@@ -143,24 +130,6 @@ a {
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
-/* .address__placeholder {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    letter-spacing: -0.1px;
-    color: #969696;
-} */
-
-/* .address__select option:first-child {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    letter-spacing: -0.1px;
-    color: gray;
-} */
 
 .address__select {
     font-weight: 400;
@@ -201,7 +170,6 @@ a {
 }
 
 .wrapper-signup__terms {
-    /* width: 100%; */
     padding: 0 80px;
     align-items: center;
     justify-content: center;
@@ -330,29 +298,3 @@ a {
 }
 
 
-
-/* .container {
-    background-color: #007BFF;
-    display: flex;
-    gap: 0 15px;
-}
-
-.block {
-    display: contents;
-}
-
-.content {
-   width: 100%;
-   background-color: #1C1C1C;
-} */
-
-
- /* .block {
-    display: none;
- }
-
- .block:has(.content) {
-    display: block;
-    background-color: #1C1C1C;
-    width: 100%;
- } */
