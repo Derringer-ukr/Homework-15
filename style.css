@@ -1,6 +1,5 @@
 body {
     display: flex;
-    justify-content: space-between;
     padding: 55px 135px;
     min-width: 1170px;
     background: #F7F7F7;
@@ -38,6 +37,12 @@ a {
     display: block;
     margin-bottom: 7px;
 }
+
+
+.wrapper-signup {
+    margin-right: 30px;
+}
+
 .wrapper-signup__name, .wrapper-profile__name, .wrapper-profile__contacts {
     display: flex;
     justify-content: space-between;
